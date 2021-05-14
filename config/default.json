@@ -1,5 +1,0 @@
-{
-    "port": 5000,
-    "connect-mongodb": "mongodb+srv://Daniil:HKe7o7ahpgxBMFyS@cluster0.isml6.mongodb.net/Twitter?retryWrites=true&w=majority",
-    "secrete-code-jwt": "It is very cool"
-}
