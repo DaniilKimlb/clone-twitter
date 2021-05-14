@@ -1,5 +1,5 @@
 const { Router } = require('express')
-const { User } = require('../../Twitter/models/User')
+const { User } = require('../models/User')
 const bcrypt = require('bcrypt')
 const { body, validationResult } = require('express-validator')
 const jwt = require('jsonwebtoken')
