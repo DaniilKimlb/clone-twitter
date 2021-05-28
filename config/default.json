@@ -1,5 +1,9 @@
 {
     "port": 5000,
     "connect-mongodb": "mongodb+srv://Daniil:HKe7o7ahpgxBMFyS@cluster0.isml6.mongodb.net/Twitter?retryWrites=true&w=majority",
-    "secrete-code-jwt": "It is very cool"
+    "secrete-code-jwt": "It is very cool",
+    "SENDGRID_API_KEY": "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",
+    "EMAIL_FROM": "ddxu527@gmail.com",
+    "BASE_URL_ClIENT": "http://localhost:3000/",
+    "BASE_URL_SERVER": "http://localhost:5000/"
 }
