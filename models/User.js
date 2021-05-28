@@ -4,11 +4,16 @@ const schema = new Schema({
     name: { required: true, type: String },
     email: { type: String, required: true },
     password: { type: String, required: true },
-    dateOfBirth: {
-        dayOfBirth: { type: Number, required: true },
-        yearOfBirth: { type: Number, required: true },
-        monthOfBirth: { type: Number, required: true },
-    },
+    username: String,
+    confirmToken: String,
+    confirmTokenExp: Date,
+    resetTokenExp: Date,
+    resetToken: String,
+    active: { required: true, type: Boolean, default: false },
+    avatar: String,
+    cap: String,
+    aboutMe: String,
+    dateOfBirth: { required: true, type: Date },
 })
 
-module.export = model('User', schema)
+module.exports = model('User', schema)
